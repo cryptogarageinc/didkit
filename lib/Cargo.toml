@@ -22,7 +22,7 @@ include = [
 default = ["w3c", "ed25519", "rsa", "ripemd-160", "eip", "tezos"]
 
 w3c = ["ssi/w3c"]
-secp256k1 = ["ssi/secp256k1"]
+secp256k1 = ["ssi/secp256k1", "did-method-key/secp256k1"]
 secp256r1 = ["ssi/secp256r1"]
 secp384r1 = ["ssi/secp384r1"]
 ed25519 = ["ssi/ed25519"]
